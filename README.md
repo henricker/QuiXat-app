@@ -23,3 +23,7 @@
 - [ ] Add error message for conflict between two users with the same username and in the same room
 
 - [ ] Share images and videos
+
+### Deployed
+
+- Deployed in https://quixat.herokuapp.com
