@@ -1,0 +1,32 @@
+
+main {
+  background-color: rgb(231, 179, 245, .1);
+  padding: 12rem;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+main h2 {
+  color:rgb(247, 103, 110);
+  margin-bottom: 1rem;
+}
+
+main p {
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 2rem;
+}
+
+footer .symbols p {
+  color: #fff;
+  display: inline-block;
+}
+
+footer .symbols a {
+  text-decoration: none;
+}

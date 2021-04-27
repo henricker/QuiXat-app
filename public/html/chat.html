@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/chat.css">
+  <title>QuiXat</title>
+</head>
+<body>
+  <header>
+    <h1>QuiXat</h1>
+    <img src="../images/conversation.svg" alt="image-conversation" width="50" height="50">
+  </header>
+  <main>
+    <section id="usersOnRoom">
+      <h2>Users</h2>
+      <div id="allUsers">
+        <!--
+        <div class="user">
+          <h3>Henrique</h3>
+        </div>
+        <div class="user">
+          <h3>Pedro</h3>
+        </div>
+        <div class="user">
+          <h3>Talia</h3>
+        </div>
+        <div class="user" id="">
+          <h3>Juliana</h3>
+        </div>
+        <div class="user">
+          <h3>Matheus</h3>
+        </div>
+        -->
+      </div>
+    </section>
+    <section id="chat">
+      <h2>Chat</h2>
+        <div id="main-chat">
+          <!--
+          <div class="message-box myself-user">
+            <p class="username">Henrique</p>
+            <p>Bom dia gente!</p>
+          </div>
+          <div class="message-box others">
+            <p class="username">Pedro</p>
+            <p>Bom dia Henrique!</p>
+          </div>
+          <div class="message-box others">
+            <p class="username">Talia</p>
+            <p>Oi galera!</p>
+          </div>
+          <div class="message-box others">
+            <p class="username">Juliana</p>
+            <p>Tô é com sono mah</p>
+          </div>
+          <div class="message-box others">
+            <p class="username">Matheus</p>
+            <p>aiaiaia viu!</p>
+          </div>
+          <div class="message-box myself-user">
+            <p class="username">Henrique</p>
+            <p>Juliana como sempre...</p>
+          </div>
+          <div class="message-box myself-user">
+            <p class="username">Henrique</p>
+            <p>Saindo aqui...</p>
+          </div>
+          -->
+        </div>
+      <div id="sendMessage">
+        <textarea  placeholder="Envie uma mensagem..." name="message" cols="25" rows="7"></textarea>
+        <button>Enviar</button>
+      </div>
+    </section>
+    <div id="logs">
+      <h2>Logs</h2>
+      <div id="allLogs">
+        <!--
+        <div class="log">
+          <p class="usernameLog">Henrique</p>
+          <p class="joined">joined on room</p>
+        </div>
+        <div class="log">
+          <p class="usernameLog">Pedro</p>
+          <p class="joined">joined on room</p>
+        </div>
+        <div class="log">
+          <p class="usernameLog">Talia</p>
+          <p class="joined">joined on room</p>
+        </div>
+        <div class="log">
+          <p class="usernameLog">Juliana</p>
+          <p class="joined">joined on room</p>
+        </div>
+        <div class="log">
+          <p class="usernameLog">Matheus</p>
+          <p class="joined">joined on room</p>
+        </div>
+        <div class="log">
+          <p class="usernameLog">Henrique</p>
+          <p class="left">left the room</p>
+        </div>
+        -->
+      </div>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+  <script src="../js/client.js"></script>
+</body>
+</html>

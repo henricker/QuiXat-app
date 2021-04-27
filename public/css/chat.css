@@ -1,0 +1,188 @@
+main {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#usersOnRoom {
+  background-color: rgb(231, 179, 245, .2);
+  width: 10rem;
+  height: 85vh;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+#logs {
+  background-color: rgb(231, 179, 245, .2);
+  width: 13rem;
+  text-align: center;
+  height: 85vh;
+  border-radius: 1rem;
+}
+
+#usersOnRoom h2, #logs h2, #chat h2 {
+  margin: 1rem 0 1rem 0;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#allUsers {
+  display: flex;
+  height: 77vh;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+#allUsers .user {
+  width: 95%;
+  background-color: #fff;
+  padding: .1rem 0rem;
+  margin-bottom: .2rem;
+  color:rgb(120, 71, 255)
+}
+
+#allUsers .user:hover {
+  background-color: rgba(138, 43, 226, .3);
+  color: #fff;
+}
+
+#usersOnRoom h3 {
+  font-size: .9rem;
+  font-weight: normal;
+  margin: .5rem 0 .5rem 0;
+}
+
+#logs, .log {
+  font-size: .9rem;
+  margin: .5rem 0 .5rem 0;
+}
+
+#allLogs {
+  display: flex;
+  height: 77vh;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+#allLogs .log {
+  width: 95%;
+  padding: .5rem .2rem;
+  background-color: #fff;
+  color: rgb(120, 71, 255);
+}
+
+#allLogs .log:hover {
+  background-color: rgba(138, 43, 226, .3);
+}
+
+#allLogs .log:hover .usernameLog {
+  color:#fff;
+}
+
+#allLogs .log .joined {
+  color:rgb(36, 245, 17);
+  font-weight: 700;
+}
+
+#allLogs .log .left {
+  color: rgb(241, 71, 41);
+  font-weight: 700;
+}
+
+#chat {
+  background-color: rgb(231, 179, 245, .2);
+  text-align: center;
+  width: 30rem;
+  height: 85vh;
+  border-radius: 3rem;
+}
+
+#chat h4 {
+  color: white;
+  font-size: .8rem;
+}
+
+#chat #main-chat {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+#chat .message-box {
+  width: 30%;
+  background-color: blueviolet;
+  padding: .5rem 1rem;
+  margin: .5rem 0 .5rem 0;
+  box-sizing: content-box;
+  color: #fff;
+  text-align: left;
+  line-height: .9rem;
+  border-radius: .3rem .3rem;
+  word-break: break-word;
+
+  height: auto;
+}
+
+#chat .message-box .username {
+  font-size: .8rem;
+}
+
+#chat .myself-user {
+  background-color: rgb(173, 123, 219);
+  margin-left: auto;
+  margin-right: .3rem;
+}
+
+#chat .others {
+  margin-left: .3rem;
+}
+
+#sendMessage {
+  position: relative;
+  width: 100%;
+}
+
+#sendMessage textarea{
+  width: 70%;
+  height: 5rem;
+  margin-left: .3rem;
+  outline: none;
+  padding: .4rem;
+  border-radius: .7rem;
+  float: left;
+  resize: none;
+}
+
+#sendMessage button {
+  position: absolute;
+  right: 1.3rem;
+  top: 1.8rem;
+  z-index: 10;
+
+  width: 20%;
+  padding: .5rem .8rem;
+  background-color:rgb(102, 204, 93);
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+
+  transition: .2s;
+}
+
+#sendMessage button:hover {
+  background-color: rgb(36, 245, 17);;
+  transform: scale(1.1);
+}
+
+
