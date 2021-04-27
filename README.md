@@ -20,4 +20,6 @@
 - [x] Send and receive message
   ![conversation-gif](./images/conversation.gif)
 
+- [ ] Add error message for conflict between two users with the same username and in the same room
+
 - [ ] Share images and videos
