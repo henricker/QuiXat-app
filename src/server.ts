@@ -1,4 +1,6 @@
 import { serverHttp } from './http';
 import './websocket/client';
 
-serverHttp.listen(3333, () => console.log("Server is running on port 3333"));
+const PORT = process.env.PORT || 3333;
+
+serverHttp.listen(PORT, () => console.log("Server is running on port 3333"));
