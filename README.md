@@ -1,4 +1,4 @@
-# QuiXat in progress...
+# QUIXAT
 
 ## Techs
 - NodeJs
